@@ -19,3 +19,5 @@ This Python script will take a list of Cylance policies, extract any device bloc
 The Cylance token generation is a modified version of the script provided by Cylance to generate a temporary token for authentication.  This token has a timeout typically, but a new working token will be generated every time you run the script. 
 
 The automatic Cylance policy query doesn't fully work, so you must specificy the policy id's manaully in a global variable.  The query works fine, but it only pulls back five total policies due to paging. 
+
+I'm sure there are a lot of improvements that can be made - so please feel free to contribute. 
